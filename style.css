@@ -1,16 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+body {
+  background-color: #222;
+  font-family: 'Big Shoulders Display', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-size: 120px;
+  color: #ff4e50; /* red: FF4e50 ,   yellow f9d423 orange #fc913a */
+  text-shadow: 1px 1px 0 #f9d423, 1px -1px 0 #f9d423, -1px 1px 0 #f9d423,
+    -1px -1px 0 #f9d423;
+}
+
+#glow:hover {
+  color: #f9d423;
+  text-shadow: 1px 1px 0 #ff4e50, 1px -1px 0 #ff4e50, -1px 1px 0 #ff4e50,
+    -1px -1px 0 #ff4e50;
 }
