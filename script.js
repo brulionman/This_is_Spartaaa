@@ -2,7 +2,9 @@ const stripesContainer = document.getElementById('stripes')
 const btn = document.getElementById('btn')
 
 
-btn.addEventListener(-=== HERE ====-)
+btn.addEventListener('click', () => {
+    stripesContainer.classList.toggle('shattered')
+})
 
 
 function createStripes() {

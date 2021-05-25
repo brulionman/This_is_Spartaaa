@@ -40,7 +40,7 @@ h1 {
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 12px;
-  font-size: 24px;
+  font-size: 12px;
   padding: 12px 24px;
   border: #ff4e50 2px solid;
   box-shadow: 0 -5px rgba(0, 0, 0, 0.9);
@@ -83,12 +83,12 @@ h1 {
 }
 
 .stripe {
-  /* background-image: url('https://media4.giphy.com/media/Ny4Ian52lZDz2/giphy.gif?cid=ecf05e47jndjs5t4w2tjh6rcqqu6cojh4w65u256szqghrze&rid=giphy.gif&ct=g'); */
-  background-image: url('https://media2.giphy.com/media/Qa47txUkn3c5aTMA9C/giphy.gif?cid=ecf05e47mvpd5v1tfarcg2txf5ijldkkte5u510e2tcci7ct&rid=giphy.gif&ct=g');
+  background-image: url('https://media4.giphy.com/media/Ny4Ian52lZDz2/giphy.gif?cid=ecf05e47jndjs5t4w2tjh6rcqqu6cojh4w65u256szqghrze&rid=giphy.gif&ct=g');
+  /* background-image: url('https://media2.giphy.com/media/Qa47txUkn3c5aTMA9C/giphy.gif?cid=ecf05e47mvpd5v1tfarcg2txf5ijldkkte5u510e2tcci7ct&rid=giphy.gif&ct=g'); */
   background-repeat: no-repeat;
   background-size: 800px 300px;
   position: relative;
-  transition: 2.5s ease;
+  transition: 0.5s ease;
   height: 300px;
   width: 80px;
 }
