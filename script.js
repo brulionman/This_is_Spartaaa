@@ -2,12 +2,12 @@ const stripesContainer = document.getElementById('stripes')
 const btn = document.getElementById('btn')
 
 
+btn.addEventListener(-=== HERE ====-)
+
 
 function createStripes() {
     for(let s = 0; s < 10; s++) {
         
-        
-
         const stripe = document.createElement('div')
         stripe.classList.add('stripe')
 
